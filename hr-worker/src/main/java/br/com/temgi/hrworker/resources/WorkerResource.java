@@ -13,7 +13,7 @@ import br.com.temgi.hrworker.entities.Worker;
 import br.com.temgi.hrworker.repositories.WorkerRepository;
 
 @RestController
-@RequestMapping(value="/worker")
+@RequestMapping(value="/workers")
 public class WorkerResource {
 	
 	@Autowired
