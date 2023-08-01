@@ -59,3 +59,118 @@
 - [x] Padrão DTO com Model Mapper
 - [x] Emgrego de Sub-Recursos de API
 - [x] Implementação de Ação Não-CRUD(Processos de Negócios)
+
+## 💡 Estrutura de Autenticação OAuth
+<br>
+
+![Autenticação OAuth](https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/Autenticacao-OAuth.png)
+
+## 🛰️ Autorização com Token JWT
+<br>
+
+![Autorização JWT](https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/Autorizacao-TokenJWT.png)
+
+## 🎯 Conjunto de Interfaces
+<br>
+
+![Conjunto Interfaces](https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/EstruturaClasses.png)
+
+## 🚀 Tecnologias Utilizadas:
+### Back-End
+<ul>
+        <li> Java 11</li>
+        <li> API Gateway Netflix Zuul</li>
+        <li> Feign Nextflix</li>
+        <li> Spring Data JPA</li>
+        <li> Jackson JSON</li>
+        <li> Postman</li>
+        <li> Ribbon Load Balance</li>
+        <li> Maven</li>
+        <li> Apache TomCat</li>
+        <li> Netflix Eureka Discovery</li>
+        <li> Netflix Hystrix</li>
+        <li> JPA-Hibernate</li>
+        <li> OAuth e JWT</li>
+        <li> Docker</li>
+        <li> PostgreSQL</li>
+</ul>
+
+## 🏁 Como Executar o Projeto
+
+### Instalações
+1-Baixar e Instalar o Java-JDK no Link Abaixo:
+<br>
+https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html
+<br><br>
+2-Configurar Variáveis de Ambiente do Java-JDK Conforme Link Abaixo:
+<br>
+https://www.alura.com.br/apostila-java-orientacao-objetos/apendice-instalacao-do-java
+<br><br>
+3-Baixar e Instalar o MySQL Seguindo os Links Abaixo:
+<br>
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+<br>
+https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
+<br><br>
+4-Baixar e Instalar o Postman Seguindo os Links Abaixo:
+<br>
+https://www.postman.com/downloads/
+<br>
+https://www.alura.com.br/artigos/postman-como-instalar-dar-seus-primeiros-passos
+<br><br>
+
+### Configuração Banco de Dados
+1-Script SQL para Criação do Banco de Dados
+~~~sql
+CREATE SCHEMA `algalog`;
+~~~
+<br>
+
+2-Script SQL para Popular Tabela CLIENTE
+~~~sql
+INSERT INTO cliente(nome, email, fone)
+VALUES('João da Silva', 'joaodasilva@email.com', '11-99955-3333');
+
+INSERT INTO cliente(nome, email, fone)
+VALUES('Maria Abadia', 'mariaabadia@email.com', '11-99888-4444');
+
+~~~
+<br>
+
+### Execução e Deploy do Projeto
+
+
+#### Clonar Repositório
+- git clone https://github.com/Temgi/APILogistica.git
+
+#### Executar o Projeto
+- Baixar e Descompactar o Apache Maven apache-maven-3.8.4 no Unidade C:\
+- Copiar o Endereço da Pasta [bin] no Caminho [C:\apache-maven-3.8.4\bin]
+- Configurar as Variáveis de Ambiente para o Apache Maven apache-maven-3.8.4:
+
+   Abra o Meu Computador no Windows(Win+E) / Botão Direito dentro de Meu Computador e Selecione [Propriedades] / Click
+   no lado Esquerdo em [Configurações Avançadas de Sistema]  / Na Aba [Avançado], clique na Parte Inferior em [Variáveis
+   de Ambiente]  / Em [Variáveis de Sistema] Click em [Novo] / No Campo [Nome da Variável] digite [MAVEN_HOME] / No
+   Campo [Valor da Variável] digite [C:\apache-maven-3.8.4] e Click OK / Selecione na Lista o Item [PATH] e Click em
+   [Editar] / Click em [Novo] digite [%MAVEN_HOME%\bin] / Click em OK - OK - OK. Abra o Executar no Windows com [Win+R]
+   digite [cmd], no Prompt de Comando digite o comando [mvn -version]
+
+- Acessar no Prompt de Comando o Caminho da Pasta [target] do Projeto [APILogistica]
+- No Prompt Executar o Comando [java -jar AppLogistica.jar]
+- Baixar o Collection Resources do Postman logo Abaixo:<br>
+  https://github.com/Temgi/APILogistica/blob/main/assets/API%20-%20Externo(Nuvem).zip
+- Abrir o Postman e Importar a Collection conforme Link Abaixo:<br>
+  https://learning.postman.com/docs/getting-started/importing-and-exporting-data/
+
+
+## 📝 **Autor**
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Temgi"><img style="border-radius: 10%;" src="https://avatars.githubusercontent.com/u/8334174?v=4" width="80px;" alt="Foto de Rui Temgi Saraiva Azevedo no GitHub"/></a><br /></td>
+</tr>
+</table>
+
+Rui Azevedo
+<br>
+Contatos:  <a href="https://www.linkedin.com/in/devruiazevedo/">LinkedIn</a> - <a href="https://wa.me/5511971973505?text=Olá.%20Estou%20Entrando%20em%20Contato%20a%20partir%20do%20Portfólio%20no%20GitHub.">WhatsApp</a> - <a href="#"> ruisaraivasp@gmail.com</a>
