@@ -123,11 +123,10 @@ https://www.alura.com.br/artigos/postman-como-instalar-dar-seus-primeiros-passos
 - git clone https://github.com/Temgi/APILogistica.git
 
 #### Configuração do Projeto
+- Fases do Projeto https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/README.md
 
-
-
-  
 #### Execução Container Docker
+- Container Docker https://github.com/Temgi/Microsservicos_SpringCloud/blob/docker/README.md
 
 
 
