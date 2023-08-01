@@ -106,11 +106,9 @@ https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.htm
 <br>
 https://www.alura.com.br/apostila-java-orientacao-objetos/apendice-instalacao-do-java
 <br><br>
-3-Baixar e Instalar o MySQL Seguindo os Links Abaixo:
+3-Baixar e Instalar o Docker Seguindo o Link Abaixo:
 <br>
-https://dev.mysql.com/downloads/windows/installer/8.0.html
-<br>
-https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
+https://docs.docker.com/desktop/install/windows-install/
 <br><br>
 4-Baixar e Instalar o Postman Seguindo os Links Abaixo:
 <br>
@@ -118,24 +116,6 @@ https://www.postman.com/downloads/
 <br>
 https://www.alura.com.br/artigos/postman-como-instalar-dar-seus-primeiros-passos
 <br><br>
-
-### Configuração Banco de Dados
-1-Script SQL para Criação do Banco de Dados
-~~~sql
-CREATE SCHEMA `algalog`;
-~~~
-<br>
-
-2-Script SQL para Popular Tabela CLIENTE
-~~~sql
-INSERT INTO cliente(nome, email, fone)
-VALUES('João da Silva', 'joaodasilva@email.com', '11-99955-3333');
-
-INSERT INTO cliente(nome, email, fone)
-VALUES('Maria Abadia', 'mariaabadia@email.com', '11-99888-4444');
-
-~~~
-<br>
 
 ### Execução e Deploy do Projeto
 
