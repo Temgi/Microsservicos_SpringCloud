@@ -1,6 +1,6 @@
 # Configuração do Projeto por Fases
 
-# Collection e environment completos para importar no Postman
+## Collection e environment completos para importar no Postman
 
 Dica: botão direito -> Salvar link como
 
@@ -9,7 +9,7 @@ Dica: botão direito -> Salvar link como
 [Postman environment](https://raw.githubusercontent.com/acenelio/ms-course/main/MS_Course_env_postman_environment.json)
 
 
-# Fase 1: Comunicação simples, Feign, Ribbon
+## Fase 1: Comunicação simples, Feign, Ribbon
 
 ### 1.1 Criar projeto hr-worker
 
@@ -56,7 +56,7 @@ Run configuration
 ```
 -Dserver.port=8002
 ```
-# Fase 2: Eureka, Hystrix, Zuul
+## Fase 2: Eureka, Hystrix, Zuul
 
 ### 2.1 Criar projeto hr-eureka-server
 
@@ -112,7 +112,7 @@ Mesmo o timeout de Hystrix e Ribbon configurado em um microsserviço, se o Zuul 
 
 Se o timeout estiver configurado somente em Zuul, o Hystrix vai chamar o método alternativo no microsserviço específico.
 
-# Fase 3: Configuração centralizada
+## Fase 3: Configuração centralizada
 
 ### 3.1 Criar projeto hr-config-server
 
@@ -148,7 +148,7 @@ Atenção: colocar @RefreshScope em toda classe que possua algum acesso às conf
 
 Atenção: reinicie a IDE depois de adicionar as variáveis de ambiente
 
-# Fase 4: autenticação e autorização
+## Fase 4: autenticação e autorização
 
 ### 4.1 Criar projeto hr-user
 
