@@ -27,20 +27,20 @@
 * [Item-10](#-como-executar-o-projeto)
 * [Item-11](#-autor)
 
-## 💻 End-Point /Clientes para Listagem
+## 💻 Arquitetura do Projeto
 <br>
 
-![End-Point Listagem](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/API-EndPoint1.png)
+![Arquitetura Projeto](https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/ArquiteturaProjeto.png)
 
-## 🎨 End-Point /Clientes para Cadastro
+## 🎨 Modelo Conceitual
 <br>
 
-![End-Point Cadastro](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/API-EndPoint3.png)
+![Modelo Conceitual](https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/ModeloConceitual.png)
 
 ## 👓 Organização de Pacotes
 <br>
 
-![Pacotes do Projeto](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/PacotesProjeto.png)
+![Pacotes do Projeto](https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/PacotesProjeto.png)
 
 ## ⚙️ Features
 
