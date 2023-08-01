@@ -15,13 +15,13 @@
 
 ## 📗 Sumário
 
-* [Arquitetura do Projeto](#-end-point-clientes-para-listagem)
-* [Modelo Conceitual](#-end-point-clientes-para-cadastro)
-* [Organização de Pacotes](#-organização-de-pacotes)
+* [Arquitetura do Projeto](#-arquitetura-do-projeto)
+* [Modelo Conceitual](#-modelo-conceitual)
+* [Organização de Pacotes](#-organiza%C3%A7%C3%A3o-de-pacotes)
 * [Features](#%EF%B8%8F-features)
-* [Estrutura de Autenticação OAuth](#-end-point-clientes-para-atualização)
-* [Autorização com Token JWT](#%EF%B8%8F-end-point-clientes-para-exclusão)
-* [Conjunto de Interfaces](#-estrutura-de-classes)
+* [Estrutura de Autenticação OAuth](#-estrutura-de-autentica%C3%A7%C3%A3o-oauth)
+* [Autorização com Token JWT](#%EF%B8%8F-autoriza%C3%A7%C3%A3o-com-token-jwt)
+* [Conjunto de Interfaces](#-conjunto-de-interfaces)
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [Como Executar o Projeto](#-como-executar-o-projeto)
 * [Autor](#-autor)
