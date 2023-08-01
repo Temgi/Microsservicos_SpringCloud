@@ -15,17 +15,16 @@
 
 ## 📗 Sumário
 
-* [Item-01](#-end-point-clientes-para-listagem)
-* [Item-02](#-end-point-clientes-para-cadastro)
-* [Item-03](#-organização-de-pacotes)
-* [Item-04](#%EF%B8%8F-features)
-* [Item-05](#-end-point-clientes-para-atualização)
-* [Item-06](#%EF%B8%8F-end-point-clientes-para-exclusão)
-* [Item-07](#-estrutura-de-classes)
-* [Item-08](#-tecnologias-utilizadas)
-* [Item-09](#-modelo-entidade-relacionamento)
-* [Item-10](#-como-executar-o-projeto)
-* [Item-11](#-autor)
+* [Arquitetura do Projeto](#-end-point-clientes-para-listagem)
+* [Modelo Conceitual](#-end-point-clientes-para-cadastro)
+* [Organização de Pacotes](#-organização-de-pacotes)
+* [Features](#%EF%B8%8F-features)
+* [Estrutura de Autenticação OAuth](#-end-point-clientes-para-atualização)
+* [Autorização com Token JWT](#%EF%B8%8F-end-point-clientes-para-exclusão)
+* [Conjunto de Interfaces](#-estrutura-de-classes)
+* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [Como Executar o Projeto](#-como-executar-o-projeto)
+* [Autor](#-autor)
 
 ## 💻 Arquitetura do Projeto
 <br>
@@ -123,10 +122,10 @@ https://www.alura.com.br/artigos/postman-como-instalar-dar-seus-primeiros-passos
 - git clone https://github.com/Temgi/APILogistica.git
 
 #### Configuração do Projeto
-- Fases do Projeto https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/README.md
+- Execução do Projeto: https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/assets/README.md
 
-#### Execução Container Docker
-- Container Docker https://github.com/Temgi/Microsservicos_SpringCloud/blob/docker/README.md
+#### Configuração Container Docker
+- Execução dos Containers: https://github.com/Temgi/Microsservicos_SpringCloud/blob/docker/README.md
 
 
 
