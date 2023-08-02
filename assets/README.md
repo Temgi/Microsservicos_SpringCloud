@@ -4,9 +4,9 @@
 
 Dica: botão direito -> Salvar link como
 
-[Postman collection](https://raw.githubusercontent.com/acenelio/ms-course/main/MS_Course_postman_collection.json)
+[Postman Collection](https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/Spring%20Cloud%20Docker-Postman_Collection.json)
 
-[Postman environment](https://raw.githubusercontent.com/acenelio/ms-course/main/MS_Course_env_postman_environment.json)
+[Postman Environment](https://github.com/Temgi/Microsservicos_SpringCloud/blob/main/Spring%20Cloud%20Docker-Postman_Environment.json)
 
 
 ## Fase 1: Comunicação simples, Feign, Ribbon
