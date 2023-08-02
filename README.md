@@ -43,7 +43,7 @@
 
 ## ⚙️ Features
 
-- [x] Autenticação/Autorização de Microsserviços
+- [x] Autenticação/Autorização de Containers
 - [x] Gateway de Roteamento
 - [x] Comunicação API-Rest com JSON
 - [x] Balanceamento de Carga
