@@ -43,21 +43,19 @@
 
 ## ⚙️ Features
 
-- [x] Collection Resources
-- [x] End-Point(CRUD) para /Clientes
-- [x] Representação em JSON e XML
-- [x] Versionamento de Database(Migration)
-- [x] Validação de Dados
-- [x] Exception Handler Customizado
-- [x] Camada de Domain Services
-- [x] End-Point(CRUD) para /Entregas
-- [x] Validação em Cascata
-- [x] Validation Group
-- [x] Padrão ISO-8601 para Data e Hora
-- [x] Separação entre Domain Model e Representation Model
-- [x] Padrão DTO com Model Mapper
-- [x] Emgrego de Sub-Recursos de API
-- [x] Implementação de Ação Não-CRUD(Processos de Negócios)
+- [x] Autenticação/Autorização de Microsserviços
+- [x] Gateway de Roteamento
+- [x] Comunicação API-Rest com JSON
+- [x] Balanceamento de Carga
+- [x] Configuração Centralizada no Git
+- [x] Microsserviços Escaláveis e Flexíveis
+- [x] Servidor de Discovery
+- [x] Token para Autorização de Microsserviços
+- [x] Isolamento em Containers Docker
+- [x] Coesão e Desacoplamento de Serviços
+- [x] Serviços Independentes
+- [x] Resiliência e Tolerância a Falhas
+- [x] InfraEstrutura Automatizada
 
 ## 💡 Estrutura de Autenticação OAuth
 <br>
